@@ -37,3 +37,34 @@ body{
 .heading-big{
     font-size: 45px;
 }
+.experience-area{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.experience-part{
+    background-image: url(/developer-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.justified-paragragh{
+    text-align: justify;
+}
+.exp-paragragh{
+    padding: 20px;
+}
+#right-card{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan) 1;
+}
+#left-card{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato) 1;
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+}
